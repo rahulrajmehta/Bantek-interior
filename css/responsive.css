@@ -1,0 +1,484 @@
+/* ==========================================================================
+   BANTEK INTERIOR - LUXURY RESPONSIVE DESIGN SYSTEM
+   Mobile & Tablet Optimizations with Premium Mobile Centered Layout
+   ========================================================================== */
+
+/* --- Tablet Breakpoint (Max 1024px) --- */
+@media screen and (max-width: 1024px) {
+  /* Show Mobile Menu Toggle & Hide Desktop Nav on Tablet & Mobile */
+  .nav-menu {
+    display: none !important;
+  }
+
+  .mobile-nav-toggle {
+    display: flex !important;
+  }
+
+  .nav-actions .btn-primary {
+    display: none;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 46px;
+    text-align: center;
+  }
+
+  .hero-desc {
+    margin: 0 auto 32px auto;
+  }
+
+  .hero-btns {
+    justify-content: center;
+  }
+
+  .hero-stats-row {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .hero-visual {
+    max-width: 620px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .estimator-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* --- Mobile Breakpoint (Max 768px) --- */
+@media screen and (max-width: 768px) {
+
+  /* ==========================================================================
+     SLEEK MOBILE TOP BAR & HEADER
+     ========================================================================== */
+  .top-bar {
+    padding: 6px 0;
+  }
+
+  .top-bar-inner {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 6px;
+  }
+
+  /* Hide long address and clock on mobile top-bar for clean luxury look */
+  .top-info-left .top-info-item {
+    display: none !important;
+  }
+
+  .top-info-left {
+    gap: 0;
+  }
+
+  .google-rating-pill {
+    padding: 2px 10px;
+    font-size: 0.74rem;
+  }
+
+  .top-info-right {
+    gap: 12px;
+    font-size: 0.78rem;
+  }
+
+  .nav-container {
+    height: 66px !important;
+  }
+
+  .brand-symbol {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .brand-symbol span {
+    font-size: 1.35rem !important;
+  }
+
+  .brand-name {
+    font-size: 1.22rem !important;
+  }
+
+  .brand-sub {
+    font-size: 0.58rem !important;
+    letter-spacing: 1.8px !important;
+  }
+
+  .theme-toggle-btn {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .mobile-nav-toggle {
+    display: flex !important;
+    padding: 6px 12px !important;
+  }
+
+  /* ==========================================================================
+     MOBILE HEADING & SECTION CENTERING (EXCEPT FOOTER)
+     ========================================================================== */
+  
+  /* Center all page headings except inside footer */
+  header h1, header h2, header h3, header h4,
+  main h1, main h2, main h3, main h4,
+  section h1, section h2, section h3, section h4,
+  .hero-title,
+  .section-title,
+  .section-header-center,
+  .service-card-title,
+  .portfolio-title,
+  .team-info h4,
+  .process-card h4,
+  .luxury-form h3,
+  .info-content h4,
+  .contact-info-panel h2,
+  .calc-tag,
+  .calc-price {
+    text-align: center !important;
+  }
+
+  /* Center Section Subtitles and Descriptions */
+  .section-subtitle,
+  .hero-desc,
+  .contact-info-panel > p,
+  .luxury-form > p {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  /* Section Tags: Center with balanced gold wings on left and right */
+  .section-tag {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 0 auto 14px auto !important;
+    width: fit-content !important;
+  }
+
+  .section-tag::before,
+  .section-tag::after {
+    content: '' !important;
+    width: 22px !important;
+    height: 1.5px !important;
+    background: var(--accent-gold) !important;
+    display: inline-block !important;
+  }
+
+  /* Center Trust Badges */
+  .badge-trust {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto 20px auto !important;
+    text-align: center !important;
+    width: fit-content !important;
+  }
+
+  /* Center Hero CTA Buttons */
+  .hero-btns {
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+  }
+
+  /* Service Card Body Alignment */
+  .service-card-body {
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .service-card-link {
+    justify-content: center !important;
+    margin: 0 auto;
+  }
+
+  /* Team Card Centering */
+  .team-card {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 26px 20px !important;
+  }
+
+  .team-info {
+    text-align: center !important;
+  }
+
+  .team-avatar-wrapper {
+    margin: 0 auto 10px auto !important;
+  }
+
+  /* Process Cards Centering */
+  .process-card {
+    text-align: center !important;
+    padding: 24px 18px !important;
+  }
+
+  .process-num {
+    text-align: center !important;
+  }
+
+  /* Testimonials Header & Reviewer Centering */
+  .testimonial-header {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+    text-align: center !important;
+  }
+
+  .reviewer-meta {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 8px !important;
+  }
+
+  .review-stars {
+    text-align: center !important;
+  }
+
+  .testimonial-card p {
+    text-align: center !important;
+  }
+
+  /* Contact Studio Info Cards Centering */
+  .contact-info-panel {
+    text-align: center !important;
+  }
+
+  .info-card-item {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 12px !important;
+  }
+
+  .contact-info-panel div[style*="display: flex"] {
+    justify-content: center !important;
+  }
+
+  /* ==========================================================================
+     MOBILE COST ESTIMATOR OVERHAUL
+     ========================================================================== */
+  .estimator-wrapper {
+    padding: 22px 14px !important;
+  }
+
+  .estimator-form-group {
+    padding: 16px 14px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .estimator-label {
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 0.9rem !important;
+  }
+
+  .bhk-options-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  .bhk-tile label {
+    padding: 10px 4px !important;
+    font-size: 0.82rem !important;
+  }
+
+  .scope-options-grid {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+  }
+
+  .scope-tile label {
+    padding: 11px 14px !important;
+    font-size: 0.85rem !important;
+  }
+
+  .tier-card-option label {
+    padding: 12px 14px !important;
+  }
+
+  .tier-info-title {
+    font-size: 0.88rem !important;
+  }
+
+  .tier-info-sub {
+    font-size: 0.73rem !important;
+  }
+
+  .estimator-summary-card {
+    position: static !important;
+    padding: 24px 16px !important;
+  }
+
+  .calc-price {
+    font-size: 1.9rem !important;
+  }
+
+  /* ==========================================================================
+     STRICT FOOTER OVERRIDE - KEEP FOOTER LEFT-ALIGNED (NOT CENTERED)
+     ========================================================================== */
+  .site-footer,
+  .site-footer h1,
+  .site-footer h2,
+  .site-footer h3,
+  .site-footer h4,
+  .site-footer p,
+  .site-footer span,
+  .site-footer a,
+  .site-footer div,
+  .footer-col,
+  .footer-col h4,
+  .footer-col p,
+  .footer-links,
+  .footer-links a,
+  .footer-contact-item,
+  .footer-bottom {
+    text-align: left !important;
+    justify-content: flex-start !important;
+  }
+
+  .site-footer .brand-logo {
+    justify-content: flex-start !important;
+  }
+
+  .footer-contact-item {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+  }
+
+  /* Layout Grids to 1 Column */
+  .services-grid,
+  .portfolio-grid,
+  .testimonials-grid,
+  .team-grid,
+  .process-grid,
+  .features-grid,
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 22px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  /* Floating Actions on Mobile */
+  .floating-actions {
+    bottom: 16px;
+    right: 16px;
+    gap: 10px;
+  }
+
+  .floating-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 1.15rem;
+  }
+
+  .floating-btn-tooltip {
+    display: none; /* Hide hover tooltips on mobile touch devices */
+  }
+
+  .chatbot-window {
+    right: 8px;
+    left: 8px;
+    width: auto;
+    bottom: 74px;
+    height: 72vh;
+  }
+
+  .hero-floating-card {
+    left: 10px;
+    bottom: -18px;
+    right: 10px;
+    max-width: none;
+    padding: 12px 16px;
+  }
+
+  .section-padding {
+    padding: 60px 0;
+  }
+
+  .hero-section {
+    padding: 50px 0 75px 0;
+  }
+
+  .hero-visual-card img {
+    height: 320px;
+  }
+}
+
+/* --- Small Mobile Breakpoint (Max 480px) --- */
+@media screen and (max-width: 480px) {
+  .hero-title {
+    font-size: 2.05rem;
+    line-height: 1.2;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-stats-row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    text-align: center;
+  }
+
+  .calc-price {
+    font-size: 1.75rem;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-btns .btn {
+    width: 100%;
+  }
+
+  .bhk-options-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}

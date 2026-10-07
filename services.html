@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Bantek Interior - Luxury Architecture & Design Ranchi</title>
+  <meta name="description" content="Explore Bantek Interior's comprehensive architectural and interior design services in Ranchi: modular kitchens, luxury living rooms, master bedrooms, and turnkey commercial fit-outs.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-info-left">
+        <span class="top-info-item"><i class="fa-solid fa-location-dot"></i> Itki Rd, Bazra, Ranchi 834005</span>
+        <span class="top-info-item"><i class="fa-regular fa-clock"></i> Open Today &bull; Closes 11:00 PM</span>
+        <div class="google-rating-pill">
+          <span class="stars"><i class="fa-solid fa-star"></i> 4.7</span>
+          <span>(15 Google Reviews)</span>
+        </div>
+      </div>
+      <div class="top-info-right">
+        <a href="tel:09570510050" class="top-link"><i class="fa-solid fa-phone"></i> 095705 10050</a>
+        <a href="https://wa.me/919570510050" target="_blank" class="top-link"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-symbol"><span>B</span></div>
+        <div class="brand-text">
+          <span class="brand-name">BANTEK</span>
+          <span class="brand-sub">Interior & Architecture</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="index.html#cost-estimator" class="nav-link">Cost Estimator</a>
+        <a href="contact.html" class="nav-link">Contact & Map</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" title="Switch Theme (Dark/Light)" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun sun-icon"></i>
+          <i class="fa-solid fa-moon moon-icon"></i>
+        </button>
+        <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20would%20like%20to%20discuss%20services." target="_blank" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Free Consultation
+        </a>
+        <button type="button" class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open Navigation Menu">
+          <span class="hamburger-box">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+          <span class="toggle-label">MENU</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dedicated Mobile Navigation Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <div class="mobile-drawer-panel" id="mobileDrawerPanel">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <div class="brand-symbol"><span>B</span></div>
+        <div class="brand-text">
+          <span class="brand-name">BANTEK</span>
+          <span class="brand-sub">Interior & Architecture</span>
+        </div>
+      </div>
+      <button type="button" class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="drawer-body">
+      <a href="index.html" class="drawer-nav-link"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="about.html" class="drawer-nav-link"><i class="fa-solid fa-gem"></i> About Us</a>
+      <a href="services.html" class="drawer-nav-link active"><i class="fa-solid fa-compass-drafting"></i> Services & Kitchens</a>
+      <a href="portfolio.html" class="drawer-nav-link"><i class="fa-solid fa-images"></i> Design Portfolio</a>
+      <a href="index.html#cost-estimator" class="drawer-nav-link"><i class="fa-solid fa-calculator"></i> Cost Estimator</a>
+      <a href="contact.html" class="drawer-nav-link"><i class="fa-solid fa-map-location-dot"></i> Contact & Map</a>
+
+      <div class="drawer-actions">
+        <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20would%20like%20to%20book%20a%20free%20design%20consultation." target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Consultation
+        </a>
+        <a href="tel:09570510050" class="btn btn-call" style="width: 100%;">
+          <i class="fa-solid fa-phone"></i> Call 095705 10050
+        </a>
+      </div>
+    </div>
+    <div class="drawer-footer">
+      <div><i class="fa-solid fa-location-dot" style="color: var(--accent-gold);"></i> Itki Rd, Bazra, Ranchi 834005</div>
+      <div style="margin-top: 4px;"><i class="fa-regular fa-clock" style="color: #25D366;"></i> Open Daily Till 11:00 PM</div>
+    </div>
+  </div>
+
+  <!-- Hero Banner -->
+  <section style="background: linear-gradient(rgba(13,15,19,0.85), rgba(13,15,19,0.92)), url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat; padding: 95px 0 55px 0; text-align: center;">
+    <div class="container">
+      <span class="section-tag" style="color: var(--accent-gold);">End-to-End Architectural Craft</span>
+      <h1 class="section-title" style="color: #fff; font-size: clamp(2.4rem, 4vw, 3.6rem);">Our Design <span class="gold-text">Specializations</span></h1>
+      <p class="section-subtitle" style="margin: 0 auto; color: #d0d6e2;">
+        Meticulously engineered spaces tailored to your personality, spatial layout, and lifestyle aspirations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed Services Breakdown -->
+  <section class="section-padding" style="background-color: var(--bg-primary);">
+    <div class="container">
+
+      <!-- 1. Modular Kitchens -->
+      <div id="kitchens" class="hero-grid" style="align-items: center; margin-bottom: 90px;">
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=80" alt="Modular Kitchen Design Ranchi">
+          </div>
+        </div>
+        <div class="hero-content">
+          <span class="section-tag">Culinary Engineering</span>
+          <h2 class="section-title">Precision Modular <span class="gold-text">Kitchens</span></h2>
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
+            Recognized by Ranchi homeowners for transforming kitchens into ergonomic, clutter-free culinary hubs. We engineer customized Island, L-Shape, Parallel, and U-Shape layouts using anti-termite BWP Marine Plywood.
+          </p>
+          <ul style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 26px; color: var(--text-secondary); font-size: 0.95rem;">
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Soft-closing German hardware (Hettich, Hafele, Blum)</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> High-gloss Acrylic, Matte PU, and anti-scratch laminates</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Stain-resistant Quartz & Granite counters with seamless sinks</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Smart pull-out pantries, blind corner carousels & cutlery trays</li>
+          </ul>
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20want%20to%20inquire%20about%20Modular%20Kitchen%20design." target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Inquire Kitchen Cost
+            </a>
+            <a href="portfolio.html" class="btn btn-outline">
+              <i class="fa-solid fa-eye"></i> View Kitchen Photos
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Living & Dining Spaces -->
+      <div id="living" class="hero-grid" style="align-items: center; margin-bottom: 90px;">
+        <div class="hero-content" style="order: 2;">
+          <span class="section-tag">Grand Impressions</span>
+          <h2 class="section-title">Bespoke Living & <span class="gold-text">Dining Suites</span></h2>
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
+            Your living room is the soul of your home. We craft signature focal points with book-matched Italian marble, fluted charcoal wood paneling, hidden acoustic wiring, and layered architectural lighting.
+          </p>
+          <ul style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 26px; color: var(--text-secondary); font-size: 0.95rem;">
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Custom TV consoles with integrated backlighting & veneer finishes</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Gypsum false ceiling with magnetic track lights and warm ambient coves</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Handcrafted luxury dining tables with marble/onyx tops and plush chairs</li>
+          </ul>
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20am%20interested%20in%20Living%20Room%20interior%20design." target="_blank" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Book Living Room Consult
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual" style="order: 1;">
+          <div class="hero-visual-card">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=80" alt="Living Room Design by Bantek Interior">
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Master Bedrooms & Wardrobes -->
+      <div id="bedroom" class="hero-grid" style="align-items: center; margin-bottom: 90px;">
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1000&q=80" alt="Master Suite Bedroom Design">
+          </div>
+        </div>
+        <div class="hero-content">
+          <span class="section-tag">Sanctuary of Rest</span>
+          <h2 class="section-title">Master Suites & <span class="gold-text">Walk-in Closets</span></h2>
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
+            Immerse yourself in understated luxury. Our bedroom designs harmonize tactile textures, acoustic isolation, personalized storage dividers, and intuitive bedside controls.
+          </p>
+          <ul style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 26px; color: var(--text-secondary); font-size: 0.95rem;">
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Tinted glass sliding wardrobes with automated internal LED sensor strips</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Custom padded headboards (leatherette, velvet, or linen)</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Vanity dressers with anti-fog smart touch mirrors</li>
+          </ul>
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20want%20to%20design%20my%20Master%20Bedroom%20and%20Wardrobe." target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Inquire Bedroom Design
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Commercial & Turnkey Architecture -->
+      <div id="commercial" class="hero-grid" style="align-items: center;">
+        <div class="hero-content" style="order: 2;">
+          <span class="section-tag">Prestige & Productivity</span>
+          <h2 class="section-title">Commercial & <span class="gold-text">Corporate Fit-Outs</span></h2>
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
+            We design high-impact corporate headquarters, retail stores, clinics, and creative studios in Ranchi that reflect authority, elevate employee productivity, and impress visiting clients.
+          </p>
+          <ul style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 26px; color: var(--text-secondary); font-size: 0.95rem;">
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Acoustic glass partitions, soundproof boardrooms & presentation zones</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Reception desks with backlit 3D acrylic brand signage</li>
+            <li><i class="fa-solid fa-circle-check" style="color: var(--accent-gold); margin-right: 8px;"></i> Commercial HVAC integration, data cabling, and emergency lighting</li>
+          </ul>
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20have%20a%20commercial%20office%20project%20in%20Ranchi." target="_blank" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Discuss Commercial Space
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual" style="order: 1;">
+          <div class="hero-visual-card">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80" alt="Commercial Office Interior Ranchi">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner-section">
+    <div class="container" style="max-width: 800px;">
+      <h2 class="section-title">Looking For A Custom Solution?</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 26px;">
+        Whether it's a full home handover or a single room overhaul, our design team is ready to consult with you.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+        <a href="index.html#cost-estimator" class="btn btn-primary">
+          <i class="fa-solid fa-calculator"></i> Calculate Cost Online
+        </a>
+        <a href="tel:09570510050" class="btn btn-outline">
+          <i class="fa-solid fa-phone"></i> Direct Call (095705 10050)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 18px;">
+            <div class="brand-symbol"><span>B</span></div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #fff;">BANTEK</span>
+              <span class="brand-sub">Interior & Architecture</span>
+            </div>
+          </div>
+          <p>Bantek Interior &bull; Ranchi's 4.7★ rated interior architecture studio. Delivering bespoke homes and modular kitchens.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact & Map</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <div class="footer-links">
+            <a href="#kitchens">Modular Kitchens</a>
+            <a href="#living">Living & Dining</a>
+            <a href="#bedroom">Master Suites</a>
+            <a href="#commercial">Commercial Architecture</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Ranchi Studio</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Itki Rd, Bazra, Ranchi, Jharkhand 834005</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:09570510050">095705 10050</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-regular fa-clock"></i>
+            <span>Open Daily Till 11:00 PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Bantek Interior (bantek.in). All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Actions Hub -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919570510050" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="tel:09570510050" class="floating-btn call-btn" aria-label="Call"><i class="fa-solid fa-phone"></i></a>
+    <button type="button" class="floating-btn chatbot-trigger" id="chatbotTrigger" aria-label="AI Chatbot"><i class="fa-solid fa-wand-magic-sparkles"></i></button>
+  </div>
+
+  <!-- AI Chatbot Window -->
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-avatar"><i class="fa-solid fa-robot"></i></div>
+        <div>
+          <h4 style="font-size: 0.95rem; font-family: var(--font-sans); color: var(--text-primary); font-weight: 700;">Bantek AI Concierge</h4>
+          <span class="chat-status">Online &bull; Ranchi Interior AI</span>
+        </div>
+      </div>
+      <div class="chat-close-btn" id="chatCloseBtn"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <div class="chat-body" id="chatMessages"></div>
+    <div class="chat-footer">
+      <input type="text" id="chatInput" class="chat-input" placeholder="Ask about styles, pricing, kitchen...">
+      <button type="button" class="chat-send-btn" id="chatSendBtn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

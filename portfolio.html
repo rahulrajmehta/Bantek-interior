@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Bantek Interior - Luxury Architecture & Design Ranchi</title>
+  <meta name="description" content="Browse Bantek Interior's curated portfolio of luxury homes, modular kitchens, living rooms, and corporate office spaces across Ranchi, Jharkhand.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-info-left">
+        <span class="top-info-item"><i class="fa-solid fa-location-dot"></i> Itki Rd, Bazra, Ranchi 834005</span>
+        <span class="top-info-item"><i class="fa-regular fa-clock"></i> Open Today &bull; Closes 11:00 PM</span>
+        <div class="google-rating-pill">
+          <span class="stars"><i class="fa-solid fa-star"></i> 4.7</span>
+          <span>(15 Google Reviews)</span>
+        </div>
+      </div>
+      <div class="top-info-right">
+        <a href="tel:09570510050" class="top-link"><i class="fa-solid fa-phone"></i> 095705 10050</a>
+        <a href="https://wa.me/919570510050" target="_blank" class="top-link"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-symbol"><span>B</span></div>
+        <div class="brand-text">
+          <span class="brand-name">BANTEK</span>
+          <span class="brand-sub">Interior & Architecture</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="index.html#cost-estimator" class="nav-link">Cost Estimator</a>
+        <a href="contact.html" class="nav-link">Contact & Map</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" title="Switch Theme (Dark/Light)" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun sun-icon"></i>
+          <i class="fa-solid fa-moon moon-icon"></i>
+        </button>
+        <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20would%20like%20to%20consult%20regarding%20a%20project." target="_blank" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-calendar-check"></i> Free Consultation
+        </a>
+        <button type="button" class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open Navigation Menu">
+          <span class="hamburger-box">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+          <span class="toggle-label">MENU</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dedicated Mobile Navigation Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <div class="mobile-drawer-panel" id="mobileDrawerPanel">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <div class="brand-symbol"><span>B</span></div>
+        <div class="brand-text">
+          <span class="brand-name">BANTEK</span>
+          <span class="brand-sub">Interior & Architecture</span>
+        </div>
+      </div>
+      <button type="button" class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="drawer-body">
+      <a href="index.html" class="drawer-nav-link"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="about.html" class="drawer-nav-link"><i class="fa-solid fa-gem"></i> About Us</a>
+      <a href="services.html" class="drawer-nav-link"><i class="fa-solid fa-compass-drafting"></i> Services & Kitchens</a>
+      <a href="portfolio.html" class="drawer-nav-link active"><i class="fa-solid fa-images"></i> Design Portfolio</a>
+      <a href="index.html#cost-estimator" class="drawer-nav-link"><i class="fa-solid fa-calculator"></i> Cost Estimator</a>
+      <a href="contact.html" class="drawer-nav-link"><i class="fa-solid fa-map-location-dot"></i> Contact & Map</a>
+
+      <div class="drawer-actions">
+        <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20would%20like%20to%20book%20a%20free%20design%20consultation." target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Consultation
+        </a>
+        <a href="tel:09570510050" class="btn btn-call" style="width: 100%;">
+          <i class="fa-solid fa-phone"></i> Call 095705 10050
+        </a>
+      </div>
+    </div>
+    <div class="drawer-footer">
+      <div><i class="fa-solid fa-location-dot" style="color: var(--accent-gold);"></i> Itki Rd, Bazra, Ranchi 834005</div>
+      <div style="margin-top: 4px;"><i class="fa-regular fa-clock" style="color: #25D366;"></i> Open Daily Till 11:00 PM</div>
+    </div>
+  </div>
+
+  <!-- Hero Banner -->
+  <section style="background: linear-gradient(rgba(13,15,19,0.85), rgba(13,15,19,0.92)), url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat; padding: 95px 0 55px 0; text-align: center;">
+    <div class="container">
+      <span class="section-tag" style="color: var(--accent-gold);">Curated Excellence</span>
+      <h1 class="section-title" style="color: #fff; font-size: clamp(2.4rem, 4vw, 3.6rem);">Design <span class="gold-text">Portfolio</span></h1>
+      <p class="section-subtitle" style="margin: 0 auto; color: #d0d6e2;">
+        Discover how our architectural concepts come to life across prestigious residences and businesses in Ranchi.
+      </p>
+    </div>
+  </section>
+
+  <!-- Filterable Projects Section -->
+  <section class="section-padding portfolio-section" style="background-color: var(--bg-primary);">
+    <div class="container">
+      <!-- Filter Controls -->
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="living">Living & Dining</button>
+        <button class="filter-btn" data-filter="kitchen">Modular Kitchens</button>
+        <button class="filter-btn" data-filter="bedroom">Bedrooms</button>
+        <button class="filter-btn" data-filter="commercial">Commercial Offices</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-item" data-category="kitchen">
+          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80" alt="The Obsidian Modular Kitchen Ranchi">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Modular Kitchen</span>
+            <h3 class="portfolio-title">The Obsidian Island Kitchen</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Morabadi, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item" data-category="living">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80" alt="Elysian Marble Living Room">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Luxury Living</span>
+            <h3 class="portfolio-title">Elysian Marble Living Suite</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Kanke Road, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item" data-category="bedroom">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80" alt="Velvet Master Bedroom Suite">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Master Suite</span>
+            <h3 class="portfolio-title">Velvet Ambient Bedroom</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Bariatu, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-item" data-category="commercial">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Apex Corporate Executive Office">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Commercial</span>
+            <h3 class="portfolio-title">Apex Corporate Suite</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Lalpur, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-item" data-category="kitchen">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Nordic Oak Parallel Kitchen">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Modular Kitchen</span>
+            <h3 class="portfolio-title">Nordic Oak Parallel Kitchen</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Bazra, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="portfolio-item" data-category="living">
+          <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" alt="Warm Acoustic Penthouse Living Room">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Luxury Living</span>
+            <h3 class="portfolio-title">Warm Acoustic Penthouse</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Harmu Housing Colony, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="portfolio-item" data-category="bedroom">
+          <img src="https://images.unsplash.com/photo-1558997519-83ea9252def8?auto=format&fit=crop&w=800&q=80" alt="Walk-in Glass Wardrobe">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Master Suite</span>
+            <h3 class="portfolio-title">Monochrome Walk-In Closet</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Ashok Nagar, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="portfolio-item" data-category="commercial">
+          <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80" alt="Modern Boutique Studio Reception">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Commercial</span>
+            <h3 class="portfolio-title">Lumina Creative Agency Studio</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Main Road, Ranchi</span>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="portfolio-item" data-category="living">
+          <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80" alt="Contemporary Dining Lounge">
+          <div class="portfolio-overlay">
+            <span class="portfolio-category">Luxury Living</span>
+            <h3 class="portfolio-title">Alabaster Dining Salon</h3>
+            <span class="portfolio-location"><i class="fa-solid fa-location-dot"></i> Doranda, Ranchi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal Container -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <div class="lightbox-close"><i class="fa-solid fa-xmark"></i></div>
+      <div class="lightbox-img-wrapper">
+        <img id="lightboxImg" src="" alt="Project Zoom">
+      </div>
+      <div class="lightbox-details">
+        <span class="portfolio-category" id="lightboxCategory"></span>
+        <h3 class="portfolio-title" id="lightboxTitle" style="color: var(--text-primary); margin: 6px 0;"></h3>
+        <span class="portfolio-location" id="lightboxLocation" style="color: var(--text-muted);"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Consultation CTA -->
+  <section class="cta-banner-section">
+    <div class="container" style="max-width: 800px;">
+      <h2 class="section-title">Envision Your Home in This Showcase</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 26px;">
+        Every design is 100% custom-tailored to your floor plan, natural light, and lifestyle habits.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+        <a href="https://wa.me/919570510050?text=Hello%20Bantek%20Interior,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20my%20project." target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-whatsapp"></i> Inquire Project Details
+        </a>
+        <a href="index.html#cost-estimator" class="btn btn-outline">
+          <i class="fa-solid fa-calculator"></i> Calculate My Estimate
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 18px;">
+            <div class="brand-symbol"><span>B</span></div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #fff;">BANTEK</span>
+              <span class="brand-sub">Interior & Architecture</span>
+            </div>
+          </div>
+          <p>Bantek Interior &bull; Ranchi's 4.7★ rated interior architecture studio. Delivering bespoke homes and modular kitchens.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact & Map</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <div class="footer-links">
+            <a href="services.html#kitchens">Modular Kitchens</a>
+            <a href="services.html#living">Living & Dining</a>
+            <a href="services.html#bedroom">Master Suites</a>
+            <a href="services.html#commercial">Commercial Architecture</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Ranchi Studio</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Itki Rd, Bazra, Ranchi, Jharkhand 834005</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:09570510050">095705 10050</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-regular fa-clock"></i>
+            <span>Open Daily Till 11:00 PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Bantek Interior (bantek.in). All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Action Hub -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919570510050" target="_blank" class="floating-btn whatsapp-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="tel:09570510050" class="floating-btn call-btn" aria-label="Call"><i class="fa-solid fa-phone"></i></a>
+    <button type="button" class="floating-btn chatbot-trigger" id="chatbotTrigger" aria-label="AI Chatbot"><i class="fa-solid fa-wand-magic-sparkles"></i></button>
+  </div>
+
+  <!-- AI Chatbot Window -->
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-avatar"><i class="fa-solid fa-robot"></i></div>
+        <div>
+          <h4 style="font-size: 0.95rem; font-family: var(--font-sans); color: var(--text-primary); font-weight: 700;">Bantek AI Concierge</h4>
+          <span class="chat-status">Online &bull; Ranchi Interior AI</span>
+        </div>
+      </div>
+      <div class="chat-close-btn" id="chatCloseBtn"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <div class="chat-body" id="chatMessages"></div>
+    <div class="chat-footer">
+      <input type="text" id="chatInput" class="chat-input" placeholder="Ask about styles, pricing, kitchen...">
+      <button type="button" class="chat-send-btn" id="chatSendBtn"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
